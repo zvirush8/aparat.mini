@@ -1,0 +1,81 @@
+body {
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	background-color: #f0f0f0;
+}
+
+h1 {
+	color: #333;
+	margin-right: 46.5%;
+}
+
+form {
+	width: 50%;
+	margin: 40px auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #3e8e41;
+}
+p{
+	margin-right: 62%;
+	margin-top: -5%;
+	text-decoration: none;
+	display: flex;
+}
+a{
+	text-decoration: none;
+}
+#username , #password{
+	margin-right: -10px;
+}
+@media screen and (min-width:480px) and (max-width:768px){
+p{
+	display: none;
+}
+#button{
+	width: 100%;
+	height: 10%;
+	font-size: 17px;
+}
+}
+@media screen and (min-width:770px) and (max-width:950px)
+{
+	p{
+		margin-top: 25px;
+		width: 100%;
+		margin-right: 100px;
+	}
+	#button{
+		width: 80%;
+		margin-right: 40px;
+		margin-top: -px;
+	}
+	#login-form{
+		height: 100%;
+	}
+}
